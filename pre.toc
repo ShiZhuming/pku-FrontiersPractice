@@ -1,0 +1,8 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{面向对象}{3}{0}{1}
+\beamer@sectionintoc {2}{面向目的}{7}{0}{2}
+\beamer@sectionintoc {3}{想清楚}{9}{0}{3}
+\beamer@sectionintoc {4}{说人话}{11}{0}{4}
+\beamer@sectionintoc {5}{有亮点}{14}{0}{5}
+\beamer@sectionintoc {6}{不要忘了图片}{17}{0}{6}
+\beamer@sectionintoc {7}{不要忘了总结}{20}{0}{7}
