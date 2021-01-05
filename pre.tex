@@ -64,6 +64,8 @@
 \renewcommand{\@thesubfigure}{\hskip\subfiglabelskip}
 \makeatother
 
+\usepackage{wallpaper}
+
 \title{怎样做一个pre}
 \author{第10组\quad 徐希彦\quad 张乐行\quad 施朱鸣}
 \date{1月6日}
@@ -169,17 +171,20 @@
     
     \section{有亮点}
 
-    \begin{frame}
-        \frametitle{有亮点}
-    
-        
-    
+    {
+    \setbeamertemplate{background}{\includegraphics[height=\paperheight]{figures/dot.jpg}}
+    \begin{frame}[plain]
     \end{frame}
+    }
 
     \begin{frame}
         \frametitle{有亮点}
     
-        没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点
+        没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点没有亮点
+
+        \begin{center}
+            =================有没有亮点的分割线=================
+        \end{center}
 
         \textbf{有亮点}：有亮点有亮点有亮点有亮点有亮点有亮点
 
@@ -216,6 +221,7 @@
     \end{frame}
 
     \section{不要忘了总结}
+    \frame{\frametitle{不要忘了总结}\tableofcontents[hideallsubsections]}
 
     \section*{致谢}
 
@@ -224,9 +230,11 @@
         \frametitle{致谢}
         \begin{columns}
             \begin{column}{.5\linewidth}
-                祝大家期末顺利！
+                \begin{center}
+                    祝大家期末顺利！
                 
-                谢谢聆听！
+                    谢谢聆听！
+                \end{center}
             \end{column}
             \begin{column}{.5\linewidth}
                 \includegraphics[width=.4\paperwidth]{figures/misaka558.png}
